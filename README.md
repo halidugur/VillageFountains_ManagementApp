@@ -64,7 +64,8 @@ Projeyi başlat (F5) ve sistemi test et!
 📷 Ekran Görüntüleri
 
 ![vtys1](https://github.com/user-attachments/assets/b83244d5-5abc-4dee-8a40-0a29976d9b66)
-![vtys2](https://github.com/user-attachments/assets/d990d018-9304-4258-be5f-10b85b7f4b28)
+![vtys22](https://github.com/user-attachments/assets/0dfbd498-f585-45c7-b83d-b31518608641)
+
 
 🚧 Bilinen Hatalar
  Hatalı girişlerde kullanıcı bilgilendirmesi eksik
