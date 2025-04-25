@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="650" Width="1200">
+
+
+
+    <Grid>
+
+
+
+
+        <TextBlock Text="Köy Adı:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtKoyAdi" HorizontalAlignment="Left" Margin="60,10,0,0" Width="200" VerticalAlignment="Top"/>
+
+        <Button Content="Bilgileri Getir" HorizontalAlignment="Left" Margin="270,10,0,0" VerticalAlignment="Top" Width="120" Click="btnGetir_Click"/>
+
+        <DataGrid x:Name="dataGridKoyBilgileri" HorizontalAlignment="Left" Margin="10,50,0,0" VerticalAlignment="Top" Width="500" Height="250"/>
+        <Button x:Name ="btnKoyGetir"  Content="Aslanapa İlçesi Köyleri" HorizontalAlignment="Left" Margin="538,15,0,0" VerticalAlignment="Top" Width="126" Click="btnKoyGetir_Click"/>
+        <TextBlock x:Name="text2" HorizontalAlignment="Left" Margin="708,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="536" Width="74"/>
+        <Button x:Name ="btnKoyGetir_Copy"  Content="Domaniç İlçesi Köyleri" HorizontalAlignment="Left" Margin="696,15,0,0" VerticalAlignment="Top" Width="125" Click="btnKoyGetir_Click1"/>
+        <TextBlock x:Name="text1" HorizontalAlignment="Left" Margin="562,50,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Height="536" Width="74"/>
+
+    </Grid>
+</Window>
+    
